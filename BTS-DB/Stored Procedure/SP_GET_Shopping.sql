@@ -1,0 +1,4 @@
+﻿CREATE PROCEDURE [dbo].[SP_GET_Shopping]
+AS
+	SELECT * FROM Tbl_Shopping
+RETURN 0

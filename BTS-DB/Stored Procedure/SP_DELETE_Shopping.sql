@@ -1,0 +1,7 @@
+﻿CREATE PROCEDURE [SP_DELETE_Shopping]
+	@ID int
+AS
+	DELETE Tbl_Shopping WHERE Id = @ID
+
+	SELECT 'Sukses'
+RETURN 0
